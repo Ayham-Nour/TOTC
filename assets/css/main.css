@@ -1,0 +1,332 @@
+header{
+    padding-top:30px;
+    padding-bottom:28px;
+}
+
+header .row{
+    justify-content: space-between;
+}
+
+header nav{
+    width: 675px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;    
+}
+
+header nav a{
+    color: #5B5B5B;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .account {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header .account p{
+   color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* MENU */
+@media screen and (max-width:729.99px) {
+    header nav {
+        display: none;
+    }     
+}
+@media screen and (min-width:730px) {
+    header .menu-btn{
+        display: none;
+    }   
+}
+
+/* 250->399.99 */ 
+@media screen and (min-width:300px) and (max-width:399.99px) {
+    .container{
+        width: calc(100% - 50px);
+    }
+
+    header{
+        padding-top:18px;
+        padding-bottom:15px;
+    }
+
+    header .menu{
+        width: 35px;
+    }
+
+    header .logo{
+        width: 70px;
+    }
+
+    header .account {
+        gap: 9px;
+    }
+
+    header .account img{
+        width: 45px;
+    }
+   
+    header .account p{
+        font-size: 16px;
+    }
+}
+
+
+/* 400->709.99 */ 
+@media screen and (min-width:400px) and (max-width:729.99px) {
+    .container{
+        width: calc(100% - 70px);
+    }
+
+    header{
+        padding-top:20px;
+        padding-bottom:17px;
+    }
+
+    header .menu{
+        width: 40px;
+    }
+
+    header .logo{
+        width: 80px;
+    }
+
+    header .account {
+        gap: 10px;
+    }
+
+    header .account img{
+        width: 50px;
+    }
+   
+    header .account p{
+        font-size: 16px;
+    }
+}
+
+/* 730->819.99 */ 
+@media screen and (min-width:730px) and (max-width:819.99px) {
+    .container{
+        width: calc(100% - 120px);
+    }
+    header{
+        padding-top:22px;
+        padding-bottom:19px;
+    }
+
+    header .logo{
+        width: 65px;
+    }
+
+    header nav{
+        width: 450px;
+        gap: 30px;    
+    }
+
+    header nav a{
+        font-size: 14px;
+    }
+    
+    header .account {
+        gap: 7.5px;
+    }
+
+    header .account img{
+        width: 36px;
+    }
+   
+    header .account p{
+        font-size: 12px;
+    }
+}
+
+/* 820->914.99 */ 
+@media screen and (min-width:820px) and (max-width:914.99px) {
+    .container{
+        width: calc(100% - 140px);
+    }
+    header{
+        padding-top:25px;
+        padding-bottom:23px;
+    }
+
+    header .logo{
+        width: 74px;
+    }
+
+    header nav{
+        width: 500px;
+        gap: 58px;    
+    }
+
+    header nav a{
+        font-size: 16px;
+    }
+    
+    header .account {
+        gap: 8.2px;
+    }
+
+    header .account img{
+        width: 45px;
+    }
+   
+    header .account p{
+        font-size: 13.5px;
+    }
+}
+
+/* 915->949.99 */
+@media screen and (min-width:915px) and (max-width:949.99px) {
+    .container{
+        width: calc(100% - 170px);
+    }
+    header{
+        padding-top:26px;
+        padding-bottom:24px;
+    }
+
+    header .logo{
+        width: 85px;
+    }
+
+    header nav{
+        width: 535px;
+        gap: 60px;    
+    }
+
+    header nav a{
+        font-size: 16px;
+    }
+    
+    header .account {
+        gap: 9px;
+    }
+
+    header .account img{
+        width: 47px;
+    }
+   
+    header .account p{
+        font-size: 14.5px;
+    }
+}
+
+/* 950->1014.99 */
+@media screen and (min-width:950px) and (max-width:1014.99px) {
+    .container{
+        width: calc(100% - 180px);
+    }
+    header{
+        padding-top:26.5px;
+        padding-bottom:24.5px;
+    }
+
+    header .logo{
+        width: 86px;
+    }
+
+    header nav{
+        width: 570px;
+        gap: 65px;    
+    }
+
+    header nav a{
+        font-size: 17px;
+    }
+    
+    header .account {
+        gap: 10px;
+    }
+
+    header .account img{
+        width: 50px;
+    }
+   
+    header .account p{
+        font-size: 15px;
+    }
+}
+
+/* 1015->1079.99 */
+@media screen and (min-width:1015px) and (max-width:1079.99px) {
+    .container{
+        width: calc(100% - 190px);
+    }
+    header{
+        padding-top:27px;
+        padding-bottom:25px;
+    }
+
+    header .logo{
+        width: 102px;
+    }
+
+    header nav{
+        width: 600px;
+        gap: 73px;    
+    }
+
+    header nav a{
+        font-size: 18px;
+    }
+    
+    header .account {
+        gap: 10px;
+    }
+
+    header .account img{
+        width: 53px;
+    }
+   
+    header .account p{
+        font-size: 16px;
+    }
+}
+
+/* 1080->1190 */
+@media screen and (min-width:1080px) and (max-width:1190px) {
+    .container{
+        width: calc(100% - 210px);
+    }
+    header{
+        padding-top:28px;
+        padding-bottom:26px;
+    }
+    header .logo{
+        width: 108px;
+    }
+
+    header nav{
+        width: 620px;
+        gap: 73px;    
+    }
+
+    header nav a{
+        font-size: 20px;
+    }
+    
+    header .account {
+        gap: 10px;
+    }
+
+    header .account img{
+        width: 57px;
+    }
+   
+    header .account p{
+        font-size: 16px;
+    }
+}
+
+
+    
