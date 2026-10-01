@@ -1,3 +1,7 @@
+/* Header */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 header{
     padding-top:30px;
     padding-bottom:28px;
@@ -19,7 +23,6 @@ header nav a{
     color: #5B5B5B;
     font-size: 22px;
     font-weight: 400;
-    font-family: 'Poppins', sans-serif;
 }
 
 header .account {
@@ -28,13 +31,102 @@ header .account {
     gap: 12px;
 }
 
-header .account p{
+header .account .name{
    color: #000000;
     font-size: 18px;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
 }
 
+/* WelcomBack */
+.WelcomBack{
+    margin-bottom: 82px;
+}
+.WelcomBack .container{
+    background-color: rgba(157, 204, 255, 0.2);
+    overflow: hidden;
+}
+.WelcomBack .welcom{
+    margin: 52px 120px 50px 18px;
+}
+.WelcomBack .welcom .row{
+    justify-content: space-between;
+}
+.WelcomBack .welcom h2{
+   color:#252641;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.WelcomBack .welcom a{
+    color:#49BBBD;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.WelcomBack .row{
+    display: flex;
+    align-items: center;
+}
+.WelcomBack .cards{
+    margin :0px 65.5px 155px 65.5px;
+}
+.WelcomBack .cards .row{
+    gap: 50px;
+}
+
+.WelcomBack .card{
+    padding: 19.6px 21px 12px 21px;
+    width:calc( ( 100% - 100px ) / 3);
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+.WelcomBack .cards .card>img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+.WelcomBack .card h4{
+    font-size: 24px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color:#252641;
+}
+
+.WelcomBack .card .row{
+   gap: 15px;
+   margin-left: 4px;
+   margin-bottom: 25px;
+}
+
+.WelcomBack .card .row a{
+    font-size: 18px;
+    color:#000000;
+    font-weight: 500;
+}
+
+.WelcomBack .cards .progress{
+    width: calc(100% - 4px);
+    height: 8px;
+    margin-left: 4px;
+    border-radius: 2px;
+    background-color: #D9D9D9;
+}
+
+.WelcomBack .cards .progress .progress-bar{
+    width: 77%;
+    height: 8px;
+    background-color: #49BBBD;
+}
+
+.WelcomBack .card p{
+    font-size: 14px;
+    margin-right: 4px;
+    text-align: right;
+    color:#00000080;
+    font-weight: 600;
+}
 
 /* MENU */
 @media screen and (max-width:729.99px) {
@@ -48,12 +140,12 @@ header .account p{
     }   
 }
 
-/* 250->399.99 */ 
+/* 300->399.99 */ 
 @media screen and (min-width:300px) and (max-width:399.99px) {
     .container{
         width: calc(100% - 50px);
     }
-
+    
     header{
         padding-top:18px;
         padding-bottom:15px;
@@ -75,14 +167,52 @@ header .account p{
         width: 45px;
     }
    
-    header .account p{
+    header .account .name{
         font-size: 16px;
+    }
+
+     .WelcomBack .welcom{
+        margin: 28px 18px 30px;
+    }
+
+    .WelcomBack .welcom h2{
+        font-size: 22px;
+    }
+
+    .WelcomBack .welcom a{
+        font-size: 15px;
+    }
+
+    .WelcomBack .cards{
+        margin: 0 18px 40px;
+    }
+
+    .WelcomBack .card{
+        width: 100%;
+        padding: 19.6px 21px 12px 21px;
+        border-radius: 12px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 15px;
+    }
+
+    .WelcomBack .card .row{
+        gap: 6px;
+    }
+
+    .WelcomBack .card .row a{
+        font-size: 13px;
+    }
+
+    .WelcomBack .card .row img{
+        width: 30px;
     }
 }
 
 
-/* 400->709.99 */ 
-@media screen and (min-width:400px) and (max-width:729.99px) {
+/* 400->624.99 */ 
+@media screen and (min-width:400px) and (max-width:624.99px) {
     .container{
         width: calc(100% - 70px);
     }
@@ -108,10 +238,130 @@ header .account p{
         width: 50px;
     }
    
-    header .account p{
+    header .account .name{
         font-size: 16px;
     }
+
+    .WelcomBack .welcom{
+        margin: 28px 18px 30px;
+    }
+
+    .WelcomBack .welcom .row{
+        gap: 12px;
+    }
+
+    .WelcomBack .welcom h2{
+        font-size: 22px;
+    }
+
+    .WelcomBack .welcom a{
+        font-size: 15px;
+        white-space: nowrap;
+    }
+
+    .WelcomBack .cards{
+        margin: 0 18px 40px;
+    }
+    
+
+    .WelcomBack .card{
+        width: 100%;
+        padding: 16px;
+        border-radius: 12px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 20px;
+    }
+
+    .WelcomBack .card .row{
+        gap: 8px;
+    }
+
+    .WelcomBack .card .row a{
+        font-size: 16.5px;
+    }
+
+    .WelcomBack .card .row img{
+        width: 37px;
+    }
 }
+
+/* 625->729.99 */ 
+@media screen and (min-width:625px) and (max-width:729.99px) {
+    .container{
+        width: calc(100% - 70px);
+    }
+
+    header{
+        padding-top:20px;
+        padding-bottom:17px;
+    }
+
+    header .menu{
+        width: 40px;
+    }
+
+    header .logo{
+        width: 80px;
+    }
+
+    header .account {
+        gap: 10px;
+    }
+
+    header .account img{
+        width: 50px;
+    }
+   
+    header .account .name{
+        font-size: 16px;
+    }
+
+   .WelcomBack .welcom{
+        margin: 36px 32px 34px;
+    }
+
+    .WelcomBack .welcom h2{
+        font-size: 27px;
+    }
+
+    .WelcomBack .welcom a{
+        font-size: 17px;
+    }
+
+    .WelcomBack .cards{
+        margin: 0 32px 70px;
+    }
+
+    .WelcomBack .cards .row{
+        gap: 24px;
+    }
+
+    .WelcomBack .card{
+        width: calc((100% - 24px) / 2);
+        min-width: 0;
+        padding: 16px;
+        border-radius: 14px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 17px;
+    }
+
+    .WelcomBack .card .row{
+        gap: 8px;
+    }
+
+    .WelcomBack .card .row a{
+        font-size: 16px;
+    }
+
+    .WelcomBack .card .row img{
+        width: 35px;
+    }
+}
+
 
 /* 730->819.99 */ 
 @media screen and (min-width:730px) and (max-width:819.99px) {
@@ -144,8 +394,51 @@ header .account p{
         width: 36px;
     }
    
-    header .account p{
+    header .account .name{
         font-size: 12px;
+    }
+
+    .WelcomBack .welcom{
+        margin: 36px 32px 34px;
+    }
+
+    .WelcomBack .welcom h2{
+        font-size: 24px;
+    }
+
+    .WelcomBack .welcom a{
+        font-size: 13px;
+    }
+
+    .WelcomBack .cards{
+        margin: 0 32px 70px;
+    }
+
+    .WelcomBack .cards .row{
+        gap: 24px;
+    }
+
+    .WelcomBack .card{
+        width: calc((100% - 24px) / 2);
+        min-width: 0;
+        padding: 16px;
+        border-radius: 14px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 18px;
+    }
+
+    .WelcomBack .card .row{
+        gap: 8px;
+    }
+
+    .WelcomBack .card .row a{
+        font-size: 16px;
+    }
+
+    .WelcomBack .card .row img{
+        width: 35px;
     }
 }
 
@@ -180,8 +473,51 @@ header .account p{
         width: 45px;
     }
    
-    header .account p{
+    header .account .name{
         font-size: 13.5px;
+    }
+
+    .WelcomBack .welcom{
+        margin: 36px 32px 34px;
+    }
+
+    .WelcomBack .welcom h2{
+        font-size: 24px;
+    }
+
+    .WelcomBack .welcom a{
+        font-size: 13px;
+    }
+
+    .WelcomBack .cards{
+        margin: 0 32px 70px;
+    }
+
+    .WelcomBack .cards .row{
+        gap: 24px;
+    }
+
+    .WelcomBack .card{
+        width: calc((100% - 24px) / 2);
+        min-width: 0;
+        padding: 16px;
+        border-radius: 14px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 19px;
+    }
+
+    .WelcomBack .card .row{
+        gap: 9px;
+    }
+
+    .WelcomBack .card .row a{
+        font-size: 16px;
+    }
+
+    .WelcomBack .card .row img{
+        width: 38px;
     }
 }
 
@@ -216,8 +552,51 @@ header .account p{
         width: 47px;
     }
    
-    header .account p{
+    header .account .name{
         font-size: 14.5px;
+    }
+
+    .WelcomBack .welcom{
+        margin: 36px 32px 34px;
+    }
+
+    .WelcomBack .welcom h2{
+        font-size: 27px;
+    }
+
+    .WelcomBack .welcom a{
+        font-size: 17px;
+    }
+
+    .WelcomBack .cards{
+        margin: 0 32px 70px;
+    }
+
+    .WelcomBack .cards .row{
+        gap: 24px;
+    }
+
+    .WelcomBack .card{
+        width: calc((100% - 24px) / 2);
+        min-width: 0;
+        padding: 16px;
+        border-radius: 14px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 19.5px;
+    }
+
+    .WelcomBack .card .row{
+        gap: 10px;
+    }
+
+    .WelcomBack .card .row a{
+        font-size: 16px;
+    }
+
+    .WelcomBack .card .row img{
+        width: 38px;
     }
 }
 
@@ -252,8 +631,51 @@ header .account p{
         width: 50px;
     }
    
-    header .account p{
+    header .account .name{
         font-size: 15px;
+    }
+
+    .WelcomBack .welcom{
+        margin: 36px 32px 34px;
+    }
+
+    .WelcomBack .welcom h2{
+        font-size: 27px;
+    }
+
+    .WelcomBack .welcom a{
+        font-size: 17px;
+    }
+
+    .WelcomBack .cards{
+        margin: 0 32px 70px;
+    }
+
+    .WelcomBack .cards .row{
+        gap: 24px;
+    }
+
+    .WelcomBack .card{
+        width: calc((100% - 24px) / 2);
+        min-width: 0;
+        padding: 16px;
+        border-radius: 14px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 21px;
+    }
+
+    .WelcomBack .card .row{
+        gap: 10.5px;
+    }
+
+    .WelcomBack .card .row a{
+        font-size: 17px;
+    }
+
+    .WelcomBack .card .row img{
+        width: 39px;
     }
 }
 
@@ -288,13 +710,56 @@ header .account p{
         width: 53px;
     }
    
-    header .account p{
+    header .account .name{
         font-size: 16px;
+    }
+
+    .WelcomBack .welcom{
+        margin: 36px 32px 34px;
+    }
+
+    .WelcomBack .welcom h2{
+        font-size: 27px;
+    }
+
+    .WelcomBack .welcom a{
+        font-size: 17px;
+    }
+
+    .WelcomBack .cards{
+        margin: 0 32px 70px;
+    }
+
+    .WelcomBack .cards .row{
+        gap: 24px;
+    }
+
+    .WelcomBack .card{
+        width: calc((100% - 24px) / 2);
+        min-width: 0;
+        padding: 16px;
+        border-radius: 14px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 21px;
+    }
+
+    .WelcomBack .card .row{
+        gap: 10.5px;
+    }
+
+    .WelcomBack .card .row a{
+        font-size: 17px;
+    }
+
+    .WelcomBack .card .row img{
+        width: 39px;
     }
 }
 
 /* 1080->1190 */
-@media screen and (min-width:1080px) and (max-width:1190px) {
+@media screen and (min-width:1080px) and (max-width:1190.99px) {
     .container{
         width: calc(100% - 210px);
     }
@@ -323,10 +788,114 @@ header .account p{
         width: 57px;
     }
    
-    header .account p{
+    header .account .name{
         font-size: 16px;
     }
+
+    .WelcomBack .welcom{
+        margin: 42px 50px 40px;
+    }
+
+    .WelcomBack .welcom h2{
+        font-size: 30px;
+    }
+
+    .WelcomBack .cards{
+        margin: 0 40px 90px;
+    }
+
+    .WelcomBack .cards .row{
+        gap: 24px;
+    }
+
+    .WelcomBack .card{
+        width: calc((100% - 48px) / 3);
+        min-width: 0;
+        padding: 16px;
+        border-radius: 16px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 20px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 21px;
+    }
+
+    .WelcomBack .card .row{
+        gap: 12px;
+    }
+
+    .WelcomBack .card .row a{
+        font-size: 17px;
+    }
+
+    .WelcomBack .card .row img{
+        width: 39px;
+    }
 }
+
+/* 1191px and wider */
+@media screen and (min-width:1191px) {
+    .container{
+        width: calc(100% - 250px);
+    }
+
+    header{
+        padding-top:32px;
+        padding-bottom:30px;
+    }
+
+    header nav{
+        width: 700px;
+        gap: 72px;
+    }
+
+    header nav a{
+        font-size: 21px;
+    }
+
+    .WelcomBack .welcom{
+        margin: 52px 96px 50px 24px;
+    }
+
+    .WelcomBack .welcom h2{
+        font-size: 35px;
+    }
+
+    .WelcomBack .cards{
+        margin: 0 60px 120px;
+    }
+
+    .WelcomBack .cards .row{
+        gap: 32px;
+    }
+
+    .WelcomBack .card{
+        width: calc((100% - px) / 3);
+        padding: 20px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 21px;
+    }
+
+    .WelcomBack .card .row{
+        gap: 10.5px;
+    }
+
+    .WelcomBack .card .row a{
+        font-size: 17px;
+    }
+
+    .WelcomBack .card .row img{
+        width: 43px;
+    }
+}
+
+
+
 
 
     
