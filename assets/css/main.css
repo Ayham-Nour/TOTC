@@ -37,6 +37,7 @@ header .account .name{
     font-weight: 500;
 }
 
+
 /* WelcomBack */
 .WelcomBack{
     margin-bottom: 82px;
@@ -128,6 +129,83 @@ header .account .name{
     font-weight: 600;
 }
 
+
+/* courses */
+.courses{
+    margin-bottom: 95px;
+}
+.courses h2{
+    margin-bottom: 53px;
+    font-size: 36px;
+    font-weight: 600;
+    color:#252641;
+}
+
+.courses .row {
+    column-gap: 88.07px;
+    row-gap: 80px;
+}
+.courses .course{
+    width: calc((100% - 264.21px) / 4);
+    border-radius: 20px;
+    box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.courses .course .course-img{
+    padding: 27px 33.03px 28px 33.03px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 99.08px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+.courses .course h4{
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color:#000000;
+}
+
+.courses .course p{
+    font-size: 18px;
+    margin: 0 53.23px 59px 53.23px;
+    color:#696984;
+    font-weight: 400;
+}
+
+.courses .design .course-img{
+    background-color:rgba(73, 187, 189, 0.3);
+}
+
+.courses .development .course-img{
+    background-color:rgba(91, 114, 238, 0.3);
+}
+
+.courses .development2 .course-img{
+    background-color:rgba(157, 204, 255, 0.3)
+}
+
+.courses .business .course-img{
+    background-color:rgba(0, 203, 184, 0.3);
+}
+
+.courses .marketing .course-img{
+    background-color:rgba(244, 140, 6, 0.3);
+}
+
+.courses .photography .course-img{
+    background-color:rgba(238, 100, 91, 0.3);
+}
+
+.courses .acting .course-img{
+    background-color:rgba(37, 38, 65, 0.3);
+}
+
+
 /* MENU */
 @media screen and (max-width:729.99px) {
     header nav {
@@ -139,6 +217,7 @@ header .account .name{
         display: none;
     }   
 }
+
 
 /* 300->399.99 */ 
 @media screen and (min-width:300px) and (max-width:399.99px) {
@@ -207,6 +286,39 @@ header .account .name{
 
     .WelcomBack .card .row img{
         width: 30px;
+    }
+
+    .courses{
+        margin-bottom: 45px;
+    }
+
+    .courses h2{
+    margin-bottom: 20px;
+    font-size: 18px;
+    }
+
+    .courses .row {
+        row-gap: 50px;
+    }
+    .courses .course{
+        width: 100%;
+    }
+
+    .courses .course .course-img{
+        padding: 20px 20px 21px 20px;
+        margin-bottom: 16px;
+        margin-top: 22px;
+        width: 80px;
+    }
+
+    .courses .course h4{
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    .courses .course p{
+        font-size: 16px;
+        margin: 0 30px 48px 30px;
     }
 }
 
@@ -285,6 +397,39 @@ header .account .name{
     .WelcomBack .card .row img{
         width: 37px;
     }
+
+    .courses{
+        margin-bottom: 48px;
+    }
+
+    .courses h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    }
+
+    .courses .row {
+        row-gap: 55px;
+    }
+    .courses .course{
+        width: 100%;
+    }
+
+    .courses .course .course-img{
+        padding: 20px 20px 21px 20px;
+        margin-bottom: 17px;
+        margin-top: 22.5px;
+        width: 80px;
+    }
+
+    .courses .course h4{
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    .courses .course p{
+        font-size: 16px;
+        margin: 0 42px 48px 42px;
+    }
 }
 
 /* 625->729.99 */ 
@@ -359,6 +504,40 @@ header .account .name{
 
     .WelcomBack .card .row img{
         width: 35px;
+    }
+
+    .courses{
+        margin-bottom: 51px;
+    }
+
+    .courses h2{
+    margin-bottom: 21px;
+    font-size: 21px;
+    }
+
+    .courses .row {
+        column-gap: 30px;
+        row-gap: 60px;
+    }
+    .courses .course{
+        width: calc((100% - 30px) / 2);
+    }
+
+    .courses .course .course-img{
+        padding: 20px 20px 21px 20px;
+        margin-bottom: 17px;
+        margin-top: 23px;
+        width: 82px;
+    }
+
+    .courses .course h4{
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    .courses .course p{
+        font-size: 16px;
+        margin: 0 42px 45px 42px;
     }
 }
 
@@ -440,6 +619,40 @@ header .account .name{
     .WelcomBack .card .row img{
         width: 35px;
     }
+
+    .courses{
+        margin-bottom: 51px;
+    }
+
+    .courses h2{
+    margin-bottom: 21px;
+    font-size: 22.5px;
+    }
+
+    .courses .row {
+        column-gap: 40px;
+        row-gap: 62px;
+    }
+    .courses .course{
+        width: calc((100% - 40px) / 2);
+    }
+
+    .courses .course .course-img{
+        padding: 21px 21px 21px 21px;
+        margin-bottom: 18px;
+        margin-top: 23px;
+        width: 84px;
+    }
+
+    .courses .course h4{
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    .courses .course p{
+        font-size: 16px;
+        margin: 0 47px 45.5px 47px;
+    }
 }
 
 /* 820->914.99 */ 
@@ -518,6 +731,39 @@ header .account .name{
 
     .WelcomBack .card .row img{
         width: 38px;
+    }
+
+    .courses{
+        margin-bottom: 51px;
+    }
+    .courses h2{
+    margin-bottom: 21px;
+    font-size: 23px;
+    }
+
+    .courses .row {
+        column-gap: 53px;
+        row-gap: 62px;
+    }
+    .courses .course{
+        width: calc((100% - 53px) / 2);
+    }
+
+    .courses .course .course-img{
+        padding: 21px 21px 21px 21px;
+        margin-bottom: 18px;
+        margin-top: 24px;
+        width: 85px;
+    }
+
+    .courses .course h4{
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    .courses .course p{
+        font-size: 16px;
+        margin: 0 47px 45.5px 47px;
     }
 }
 
@@ -598,6 +844,39 @@ header .account .name{
     .WelcomBack .card .row img{
         width: 38px;
     }
+
+    .courses{
+        margin-bottom: 54px;
+    }
+    .courses h2{
+    margin-bottom: 25px;
+    font-size: 23px;
+    }
+
+    .courses .row {
+        column-gap: 60px;
+        row-gap: 62px;
+    }
+    .courses .course{
+        width: calc((100% - 60px) / 2);
+    }
+
+    .courses .course .course-img{
+        padding: 21px 21px 21px 21px;
+        margin-bottom: 18.5px;
+        margin-top: 24px;
+        width: 85px;
+    }
+
+    .courses .course h4{
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    .courses .course p{
+        font-size: 16px;
+        margin: 0 50px 45.5px 50px;
+    }
 }
 
 /* 950->1014.99 */
@@ -676,6 +955,39 @@ header .account .name{
 
     .WelcomBack .card .row img{
         width: 39px;
+    }
+
+    .courses{
+        margin-bottom: 58px;
+    }
+    .courses h2{
+    margin-bottom: 30px;
+    font-size: 26px;
+    }
+
+    .courses .row {
+        column-gap: 65px;
+        row-gap: 62px;
+    }
+    .courses .course{
+        width: calc((100% - 65px) / 2);
+    }
+
+    .courses .course .course-img{
+        padding: 22px 22px 22px 22px;
+        margin-bottom: 19px;
+        margin-top: 25px;
+        width: 86px;
+    }
+
+    .courses .course h4{
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    .courses .course p{
+        font-size: 16px;
+        margin: 0 50px 45.5px 50px;
     }
 }
 
@@ -756,6 +1068,39 @@ header .account .name{
     .WelcomBack .card .row img{
         width: 39px;
     }
+
+    .courses{
+        margin-bottom: 60px;
+    }
+    .courses h2{
+    margin-bottom: 35px;
+    font-size: 30px;
+    }
+
+    .courses .row {
+        column-gap: 73px;
+        row-gap: 65px;
+    }
+    .courses .course{
+        width: calc((100% - 73px) / 2);
+    }
+
+    .courses .course .course-img{
+        padding: 22px 22px 22px 22px;
+        margin-bottom: 20px;
+        margin-top: 28px;
+        width: 87px;
+    }
+
+    .courses .course h4{
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    .courses .course p{
+        font-size: 16px;
+        margin: 0 55px 48px 55px;
+    }
 }
 
 /* 1080->1190 */
@@ -834,10 +1179,48 @@ header .account .name{
     .WelcomBack .card .row img{
         width: 39px;
     }
+
+    .courses{
+        margin-bottom: 65px;
+    }
+    .courses h2{
+    margin-bottom: 37px;
+    font-size: 31px;
+    }
+
+    .courses .row {
+        column-gap: 30px;
+        row-gap: 65px;
+    }
+    .courses .course{
+        width: calc((100% - 90px) / 4);
+    }
+
+    .courses .course .course-img{
+        padding: 22px 22px 22px 22px;
+        margin-bottom: 20px;
+        margin-top: 28px;
+        width: 70px;
+    }
+
+    .courses .course .course-img img{
+        width: 30px;
+    }
+
+    .courses .course h4{
+        font-size: 20px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+
+    .courses .course p{
+        font-size: 12px;
+        margin: 0 30px 40px 30px;
+    }
 }
 
-/* 1191px and wider */
-@media screen and (min-width:1191px) {
+/* 1191px->1550px */
+@media screen and (min-width:1191px) and (max-width:1550px) {
     .container{
         width: calc(100% - 250px);
     }
@@ -891,6 +1274,54 @@ header .account .name{
 
     .WelcomBack .card .row img{
         width: 43px;
+    }
+
+    .courses{
+        margin-bottom: 95px;
+    }
+    .courses h2{
+        margin-bottom: 53px;
+        font-size: 36px;
+        font-weight: 600;
+        color:#252641;
+    }
+
+    .courses .row {
+        column-gap: 4%;
+        row-gap: 80px;
+    }
+    .courses .course{
+        width: 21%;
+        border-radius: 20px;
+        box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+        text-align: center;
+        background-color: #FFFFFF;
+    }
+
+    .courses .course .course-img{
+        padding: 27px 33.03px 28px 33.03px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        width: 99.08px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 4px;
+    }
+
+    .courses .course h4{
+        font-size: 30px;
+        margin-bottom: 25px;
+        font-weight: 600;
+        color:#000000;
+    }
+
+    .courses .course p{
+        font-size: 18px;
+        width:78%;
+        color:#696984;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 400;
     }
 }
 
