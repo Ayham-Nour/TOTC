@@ -23,6 +23,10 @@ ul{
     width: calc(100% - 200px);
     margin: auto;
 }
+.container-footer{
+    width: calc(100% - 1403px);
+    margin: auto;
+}
 .row{
     display: flex;
     flex-wrap: wrap;

@@ -305,6 +305,108 @@ header .account .name{
     color:#49BBBD;
 }
 
+footer{
+    background-color: #252641;
+    padding-top:74px;
+    padding-bottom: 40px;
+}
+
+.container-footer{
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container-footer .top{
+    width: 412.06px;
+    margin-bottom: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-footer .top .row{
+    justify-content: space-between;
+}
+
+.container-footer .top img{
+    padding-right: 81.77px;
+    border-right:1px solid #626381;
+}
+
+.container-footer .top p{
+    width: 165.67px;
+    font-size: 26px;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+
+.container-footer .sub{
+    font-size: 26px;
+    color:#B2B3CF;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.container-footer form{
+    margin: 0 auto 96px auto;
+}
+.container-footer form input{
+    width:60%;
+    margin-right: 1%;
+    height: 60px;
+    padding: 15px 0 15px 31.86px;
+    font-size: 20px;
+    font-weight: 400;
+    color:#83839A;
+    background-color:#252641;
+    border-radius: 80px;
+    border:1px solid;
+}
+
+.container-footer form button{
+    width:30%;
+    height: 60px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: center;
+    color:#FFFFFF;
+    background-color: #49BBBD;
+    border-radius: 60px;
+}
+
+.container-footer .bottom{
+    margin-bottom: 20px;
+}
+.container-footer .bottom p{
+    width: calc( ( 100% - 60px ) / 3);
+    font-size: 22px;
+    color:#B2B3CF;
+    font-weight: 400;
+}
+
+.container-footer .bottom .row{
+    justify-content: center;
+}
+
+.container-footer a{
+    font-size: 22px;
+    padding: 0 21.24px;
+    font-weight: 500;
+    color: #B2B3CF;
+}
+.container-footer .bordered{
+    border-right: 1px solid #626381;
+    border-left: 1px solid #626381;
+}
+
+.container-footer .copy{
+    font-size: 22px;
+    font-weight: 400;
+    color:#B2B3CF;
+    text-align: center;
+}
 
 /* MENU */
 @media screen and (max-width:729.99px) {
@@ -474,6 +576,58 @@ header .account .name{
     .Recommended .card .row>.price .discounted{
         font-size: 18px;
     }
+
+    footer{
+        padding-top: 42px;
+        padding-bottom: 28px;
+    }
+
+    .container-footer{
+        width: calc(100% - 32px);
+    }
+
+    .container-footer .top{
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .container-footer .top img{
+        padding-right: 16px;
+    }
+
+    .container-footer .top p{
+        width: 125px;
+        font-size: 18px;
+    }
+
+    .container-footer .sub{
+        font-size: 18px;
+    }
+
+    .container-footer form{
+        margin-bottom: 48px;
+    }
+
+    .container-footer form input{
+        height: 48px;
+        padding: 12px 0 12px 14px;
+        font-size: 14px;
+    }
+
+    .container-footer form button{
+        height: 48px;
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .container-footer a{
+        font-size: 12px;
+        padding: 0 7px;
+    }
+
+    .container-footer .copy{
+        font-size: 14px;
+    }
 }
 
 
@@ -626,6 +780,57 @@ header .account .name{
 
     .Recommended .card>p{
         font-size: 15px;
+    }
+
+    footer{
+        padding-top: 54px;
+        padding-bottom: 32px;
+    }
+
+    .container-footer{
+        width: calc(100% - 40px);
+    }
+
+    .container-footer .top{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .container-footer .top img{
+        padding-right: 35px;
+    }
+
+    .container-footer .top p{
+        width: 150px;
+        font-size: 22px;
+    }
+
+    .container-footer .sub{
+        font-size: 20px;
+    }
+
+    .container-footer form{
+        margin-bottom: 64px;
+    }
+
+    .container-footer form input{
+        height: 52px;
+        padding: 12px 0 12px 20px;
+        font-size: 16px;
+    }
+
+    .container-footer form button{
+        height: 52px;
+        font-size: 16px;
+    }
+
+    .container-footer a{
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .container-footer .copy{
+        font-size: 16px;
     }
 }
 
@@ -788,6 +993,10 @@ header .account .name{
     .Recommended .card .row>.price .discounted{
         font-size: 18px;
     }
+
+    .container-footer{
+        width: 517px;
+    }
 }
 
 
@@ -945,9 +1154,13 @@ header .account .name{
     .Recommended .card>p{
         font-size: 15px;
     }
+
+    .container-footer{
+        width: 517px;
+    }
 }
 
-/* 820->914.99 */ 
+/* 820->914.99 */
 @media screen and (min-width:820px) and (max-width:914.99px) {
     .container{
         width: calc(100% - 140px);
@@ -1099,6 +1312,10 @@ header .account .name{
 
     .Recommended .card>p{
         font-size: 15px;
+    }
+
+    .container-footer{
+        width: 517px;
     }
 }
 
@@ -1255,6 +1472,10 @@ header .account .name{
     .Recommended .card>p{
         font-size: 16px;
     }
+
+    .container-footer{
+        width: 517px;
+    }
 }
 
 /* 950->1014.99 */
@@ -1403,6 +1624,9 @@ header .account .name{
         height: auto;
     }
 
+    .container-footer{
+        width: 517px;
+    }
 }
 
 /* 1015->1079.99 */
@@ -1549,6 +1773,10 @@ header .account .name{
     .Recommended .card>img{
         width: 100%;
         height: auto;
+    }
+
+    .container-footer{
+        width: 517px;
     }
 }
 
@@ -1701,6 +1929,10 @@ header .account .name{
         width: 100%;
         height: auto;
     }
+
+    .container-footer{
+        width: 517px;
+    }
 }
 
 /* 1191px->1600px */
@@ -1830,6 +2062,10 @@ header .account .name{
     .Recommended .card>img{
         width: 100%;
         height: auto;
+    }
+
+    .container-footer{
+        width: 517px;
     }
 }
 
