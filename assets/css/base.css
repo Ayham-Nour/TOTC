@@ -18,6 +18,11 @@ ul{
     width: calc(100% - 240px);
     margin: auto;
 }
+
+.container-fluid{
+    width: calc(100% - 200px);
+    margin: auto;
+}
 .row{
     display: flex;
     flex-wrap: wrap;

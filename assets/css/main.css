@@ -205,6 +205,106 @@ header .account .name{
     background-color:rgba(37, 38, 65, 0.3);
 }
 
+.Recommended{
+    margin-bottom: 95px;
+}
+.colored .container-fluid{
+    overflow: hidden;
+    background-color: rgba(157, 204, 255, 0.2);
+}
+.Recommended .container-fluid .title{
+    padding-top: 102px;
+    padding-bottom: 50px;
+    margin-left: 122.06px;
+    margin-right: 75.79px;
+    justify-content: space-between;
+}
+.Recommended h2{
+    font-size: 30px;
+    font-weight: 500;
+    color:#000000;
+}
+
+.Recommended .title a{
+    font-size: 20px;
+    font-weight: 700;
+    color:#49BBBD;
+}
+.Recommended .cards{
+    margin-left: 122.06px;
+    margin-right: 82.43px;
+    margin-bottom: 208px;
+}
+.Recommended .cards>.row{
+    gap: 49.71px;
+}
+
+.Recommended .card{
+    width: calc( (100% - 149.13px) / 4);
+    padding: 20px 20px 34.75px 20px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.Recommended .card img{
+    margin-bottom: 20.34px;
+}
+
+.Recommended .card>.row{
+    margin-left: 6.84px;
+    margin-right: -1.11px;
+    justify-content: space-between;
+}
+
+.Recommended .card>.row>.row{
+    gap:10px
+}
+
+.Recommended .card>.row>.row img{
+    margin-bottom: 0;
+}
+.Recommended .card>.row>.row p{
+    font-size: 14px;
+    font-weight: 500;
+    color:#696984;
+} 
+
+.Recommended .card h4{
+    font-size: 24px;
+    margin: 20px 2px 21px 6.84px;
+    font-weight: 500;
+    color:#252641;
+}
+
+.Recommended .card>p{
+    font-size: 18px;
+    margin-right: -1.11px;
+    margin-left: 6.84px;
+    margin-bottom: 17px;
+    color:#696984;
+    font-weight: 400;
+}
+
+.Recommended .card .row>.lina a{
+    font-size: 18px;
+    font-weight: 500;
+    color:#000000;
+    
+}
+
+.Recommended .card .row>.price .original{
+    font-size: 18px;
+    font-weight: 300;
+    color:rgba(0, 0, 0, 0.5);
+    text-decoration: line-through;
+}
+
+.Recommended .card .row>.price .discounted{
+    font-size: 24px;
+    font-weight: 700;
+    color:#49BBBD;
+}
+
 
 /* MENU */
 @media screen and (max-width:729.99px) {
@@ -221,6 +321,8 @@ header .account .name{
 
 /* 300->399.99 */ 
 @media screen and (min-width:300px) and (max-width:399.99px) {
+
+
     .container{
         width: calc(100% - 50px);
     }
@@ -319,6 +421,58 @@ header .account .name{
     .courses .course p{
         font-size: 16px;
         margin: 0 30px 48px 30px;
+    }
+
+        .Recommended .container-fluid{
+        width: calc(100% - 50px);
+    }
+
+    .Recommended .container-fluid .title{
+        padding: 34px 0 22px;
+        margin: 0;
+    }
+
+    .Recommended h2{
+        font-size: 18px;
+    }
+
+    .Recommended .title a{
+        font-size: 14px;
+    }
+
+    .Recommended .cards{
+        margin: 0 12px 40px;
+    }
+
+    .Recommended .cards>.row{
+        gap: 22px;
+    }
+
+    .Recommended .card{
+        width: 100%;
+        padding: 14px;
+    }
+
+    .Recommended .card>img{
+        width: 100%;
+        height: auto;
+    }
+
+    .Recommended .card h4{
+        font-size: 18px;
+    }
+
+    .Recommended .card>p{
+        font-size: 14px;
+    }
+
+    .Recommended .card .row>.lina a,
+    .Recommended .card .row>.price .original{
+        font-size: 14px;
+    }
+
+    .Recommended .card .row>.price .discounted{
+        font-size: 18px;
     }
 }
 
@@ -430,6 +584,49 @@ header .account .name{
         font-size: 16px;
         margin: 0 42px 48px 42px;
     }
+
+    .Recommended .container-fluid{
+        width: calc(100% - 70px);
+    }
+
+    .Recommended .container-fluid .title{
+        padding: 42px 0 26px;
+        margin: 0;
+    }
+
+    .Recommended h2{
+        font-size: 21px;
+    }
+
+    .Recommended .title a{
+        font-size: 15px;
+    }
+
+    .Recommended .cards{
+        margin: 0 14px 48px;
+    }
+
+    .Recommended .cards>.row{
+        gap: 24px;
+    }
+
+    .Recommended .card{
+        width: 100%;
+        padding: 16px;
+    }
+
+    .Recommended .card>img{
+        width: 100%;
+        height: auto;
+    }
+
+    .Recommended .card h4{
+        font-size: 20px;
+    }
+
+    .Recommended .card>p{
+        font-size: 15px;
+    }
 }
 
 /* 625->729.99 */ 
@@ -538,6 +735,58 @@ header .account .name{
     .courses .course p{
         font-size: 16px;
         margin: 0 42px 45px 42px;
+    }
+
+    .Recommended .container-fluid{
+        width: calc(100% - 70px);
+    }
+
+    .Recommended .container-fluid .title{
+        padding: 48px 0 28px;
+        margin: 0 32px;
+    }
+
+    .Recommended h2{
+        font-size: 22px;
+    }
+
+    .Recommended .title a{
+        font-size: 16px;
+    }
+
+    .Recommended .cards{
+        margin: 0 20px 60px;
+    }
+
+    .Recommended .cards>.row{
+        gap: 20px;
+    }
+
+    .Recommended .card{
+        width: calc((100% - 20px) / 2);
+        padding: 14px;
+    }
+
+    .Recommended .card>img{
+        width: 100%;
+        height: auto;
+    }
+
+    .Recommended .card h4{
+        font-size: 18px;
+    }
+
+    .Recommended .card>p{
+        font-size: 14px;
+    }
+
+    .Recommended .card .row>.lina a,
+    .Recommended .card .row>.price .original{
+        font-size: 14px;
+    }
+
+    .Recommended .card .row>.price .discounted{
+        font-size: 18px;
     }
 }
 
@@ -653,6 +902,49 @@ header .account .name{
         font-size: 16px;
         margin: 0 47px 45.5px 47px;
     }
+
+    .Recommended .container-fluid{
+        width: calc(100% - 120px);
+    }
+
+    .Recommended .container-fluid .title{
+        padding: 54px 0 30px;
+        margin: 0 28px;
+    }
+
+    .Recommended h2{
+        font-size: 23px;
+    }
+
+    .Recommended .title a{
+        font-size: 16px;
+    }
+
+    .Recommended .cards{
+        margin: 0 28px 65px;
+    }
+
+    .Recommended .cards>.row{
+        gap: 24px;
+    }
+
+    .Recommended .card{
+        width: calc((100% - 24px) / 2);
+        padding: 16px;
+    }
+
+    .Recommended .card>img{
+        width: 100%;
+        height: auto;
+    }
+
+    .Recommended .card h4{
+        font-size: 19px;
+    }
+
+    .Recommended .card>p{
+        font-size: 15px;
+    }
 }
 
 /* 820->914.99 */ 
@@ -764,6 +1056,49 @@ header .account .name{
     .courses .course p{
         font-size: 16px;
         margin: 0 47px 45.5px 47px;
+    }
+
+    .Recommended .container-fluid{
+        width: calc(100% - 140px);
+    }
+
+    .Recommended .container-fluid .title{
+        padding: 58px 0 32px;
+        margin: 0 32px;
+    }
+
+    .Recommended h2{
+        font-size: 24px;
+    }
+
+    .Recommended .title a{
+        font-size: 17px;
+    }
+
+    .Recommended .cards{
+        margin: 0 32px 68px;
+    }
+
+    .Recommended .cards>.row{
+        gap: 26px;
+    }
+
+    .Recommended .card{
+        width: calc((100% - 26px) / 2);
+        padding: 16px;
+    }
+
+    .Recommended .card>img{
+        width: 100%;
+        height: auto;
+    }
+
+    .Recommended .card h4{
+        font-size: 19px;
+    }
+
+    .Recommended .card>p{
+        font-size: 15px;
     }
 }
 
@@ -877,6 +1212,49 @@ header .account .name{
         font-size: 16px;
         margin: 0 50px 45.5px 50px;
     }
+
+    .Recommended .container-fluid{
+        width: calc(100% - 170px);
+    }
+
+    .Recommended .container-fluid .title{
+        padding: 62px 0 34px;
+        margin: 0 32px;
+    }
+
+    .Recommended h2{
+        font-size: 25px;
+    }
+
+    .Recommended .title a{
+        font-size: 17px;
+    }
+
+    .Recommended .cards{
+        margin: 0 32px 72px;
+    }
+
+    .Recommended .cards>.row{
+        gap: 28px;
+    }
+
+    .Recommended .card{
+        width: calc((100% - 28px) / 2);
+        padding: 17px;
+    }
+
+    .Recommended .card>img{
+        width: 100%;
+        height: auto;
+    }
+
+    .Recommended .card h4{
+        font-size: 20px;
+    }
+
+    .Recommended .card>p{
+        font-size: 16px;
+    }
 }
 
 /* 950->1014.99 */
@@ -989,6 +1367,42 @@ header .account .name{
         font-size: 16px;
         margin: 0 50px 45.5px 50px;
     }
+
+    .Recommended .container-fluid{
+        width: calc(100% - 180px);
+    }
+
+    .Recommended .container-fluid .title{
+        padding: 66px 0 36px;
+        margin: 0 32px;
+    }
+
+    .Recommended h2{
+        font-size: 26px;
+    }
+
+    .Recommended .title a{
+        font-size: 18px;
+    }
+
+    .Recommended .cards{
+        margin: 0 32px 76px;
+    }
+
+    .Recommended .cards>.row{
+        gap: 30px;
+    }
+
+    .Recommended .card{
+        width: calc((100% - 30px) / 2);
+        padding: 18px;
+    }
+
+    .Recommended .card>img{
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 /* 1015->1079.99 */
@@ -1100,6 +1514,41 @@ header .account .name{
     .courses .course p{
         font-size: 16px;
         margin: 0 55px 48px 55px;
+    }
+
+    .Recommended .container-fluid{
+        width: calc(100% - 190px);
+    }
+
+    .Recommended .container-fluid .title{
+        padding: 70px 0 38px;
+        margin: 0 32px;
+    }
+
+    .Recommended h2{
+        font-size: 27px;
+    }
+
+    .Recommended .title a{
+        font-size: 18px;
+    }
+
+    .Recommended .cards{
+        margin: 0 32px 80px;
+    }
+
+    .Recommended .cards>.row{
+        gap: 30px;
+    }
+
+    .Recommended .card{
+        width: calc((100% - 30px) / 2);
+        padding: 18px;
+    }
+
+    .Recommended .card>img{
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -1217,10 +1666,45 @@ header .account .name{
         font-size: 12px;
         margin: 0 30px 40px 30px;
     }
+
+    .Recommended .container-fluid{
+        width: calc(100% - 210px);
+    }
+
+    .Recommended .container-fluid .title{
+        padding: 78px 0 42px;
+        margin: 0 40px;
+    }
+
+    .Recommended h2{
+        font-size: 28px;
+    }
+
+    .Recommended .title a{
+        font-size: 19px;
+    }
+
+    .Recommended .cards{
+        margin: 0 40px 90px;
+    }
+
+    .Recommended .cards>.row{
+        gap: 30px;
+    }
+
+    .Recommended .card{
+        width: calc((100% - 30px) / 2);
+        padding: 20px;
+    }
+
+    .Recommended .card>img{
+        width: 100%;
+        height: auto;
+    }
 }
 
-/* 1191px->1550px */
-@media screen and (min-width:1191px) and (max-width:1550px) {
+/* 1191px->1600px */
+@media screen and (min-width:1191px) and (max-width:1600px) {
     .container{
         width: calc(100% - 250px);
     }
@@ -1309,7 +1793,7 @@ header .account .name{
     }
 
     .courses .course h4{
-        font-size: 30px;
+        font-size: 25px;
         margin-bottom: 25px;
         font-weight: 600;
         color:#000000;
@@ -1322,6 +1806,30 @@ header .account .name{
         margin-left: auto;
         margin-right: auto;
         font-weight: 400;
+    }
+
+    .Recommended .container-fluid .title{
+        margin-left: 36px;
+        margin-right: 36px;
+    }
+
+    .Recommended .cards{
+        margin-left: 36px;
+        margin-right: 36px;
+    }
+
+    .Recommended .cards>.row{
+        gap: 24px;
+    }
+
+    .Recommended .card{
+        width: calc((100% - 72px) / 4);
+        padding: 16px;
+    }
+
+    .Recommended .card>img{
+        width: 100%;
+        height: auto;
     }
 }
 
