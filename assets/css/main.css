@@ -2069,6 +2069,147 @@ footer{
     }
 }
 
+/* 1600px->2030px */
+@media screen and (min-width:1600px) and (max-width:2030px) {
+    .container{
+        width: calc(100% - 280px);
+    }
+
+    header{
+        padding-top: 36px;
+        padding-bottom: 34px;
+    }
+
+    header .logo{
+        width: 120px;
+    }
+
+    header nav{
+        width: 760px;
+        gap: 76px;
+    }
+
+    header nav a{
+        font-size: 22px;
+    }
+
+    header .account{
+        gap: 14px;
+    }
+
+    header .account img{
+        width: 60px;
+    }
+
+    header .account .name{
+        font-size: 20px;
+    }
+
+    .WelcomBack .welcom{
+        margin: 60px 100px 56px 24px;
+    }
+
+    .WelcomBack .welcom h2{
+        font-size: 38px;
+    }
+
+    .WelcomBack .cards{
+        margin: 0 72px 145px;
+    }
+
+    .WelcomBack .cards .row{
+        gap: 36px;
+    }
+
+    .WelcomBack .card{
+        width: calc((100% - 72px) / 3);
+        padding: 22px;
+    }
+
+    .WelcomBack .card h4{
+        font-size: 24px;
+    }
+
+    .courses{
+        margin-bottom: 100px;
+    }
+
+    .courses h2{
+        margin-bottom: 58px;
+        font-size: 38px;
+    }
+
+    .courses .row{
+        column-gap: 4%;
+        row-gap: 88px;
+    }
+
+    .courses .course{
+        width: 21%;
+    }
+
+    .courses .course h4{
+        font-size: 27px;
+    }
+
+    .courses .course p{
+        width: 78%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Recommended{
+        margin-bottom: 100px;
+    }
+
+    .Recommended .container-fluid{
+        width: calc(100% - 240px);
+    }
+
+    .Recommended .container-fluid .title{
+        padding: 108px 0 54px;
+        margin: 0 48px;
+    }
+
+    .Recommended h2{
+        font-size: 32px;
+    }
+
+    .Recommended .title a{
+        font-size: 21px;
+    }
+
+    .Recommended .cards{
+        margin: 0 48px 190px;
+    }
+
+    .Recommended .cards>.row{
+        gap: 30px;
+    }
+
+    .Recommended .card{
+        width: calc((100% - 90px) / 4);
+        padding: 20px;
+    }
+
+    .Recommended .card>img{
+        width: 100%;
+        height: auto;
+    }
+
+    .Recommended .card h4{
+        font-size: 25px;
+    }
+
+    .Recommended .card>p{
+        font-size: 18px;
+    }
+
+    .container-footer{
+        width: 517px;
+    }
+}
+
 
 
 
